@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CardProduct from '../../Component/CardProduct/CardProduct'
 import PictureSet from '../../Component/PictureSet/PictureSet'
+import Input from '../../Component/Input/Input'
 
 class Product extends Component {
     state = {
@@ -22,6 +23,9 @@ class Product extends Component {
                         <div class="card text-center">
                             <div class="card-header">
                                 Usada Pekora!
+                            </div>
+                            <div class="card-body">
+                                <Input/>
                             </div>
                             <div class="card-body">
                                 <div class="card-body">
